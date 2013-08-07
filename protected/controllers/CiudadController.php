@@ -13,6 +13,7 @@ class CiudadController extends Controller
 	{
 		$ciudad = Ciudad::model()->findByPk($id);
 		$this->render('view', array('ciudad' => $ciudad));
+		//testing
 	}
 
 	public function actionEdit($id)
@@ -20,6 +21,10 @@ class CiudadController extends Controller
 		$model = Ciudad::model()->findByPk($id);
 		if(!$model)
 			throw new CException(404);
+		//Prueba
+		
+		
+		
 		/*
 		echo "<pre>";
 		print_r($_POST);
