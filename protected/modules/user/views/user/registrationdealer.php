@@ -1,6 +1,7 @@
 <?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
-	'id'=>'registration-form-dealer',
-	'action' => Yii::app()->createUrl("/autosdo/index.php?r=user/registrationdealer"),
+	'id'=>'registration-form',
+	//'id'=>'registration-form-dealer',
+	'action' => Yii::app()->createUrl("user/registration"),
 	'enableAjaxValidation'=>true,
 	'clientOptions'=>array(
 		'validateOnSubmit'=>true,
@@ -20,8 +21,10 @@
 	
 	<?php echo $form->textFieldRow($model,'email'); ?>
 	
-	<?php echo $form->hiddenField($profile, 'id_tipo_vendedor', $htmlOptions=array('value'=>"2")); ?>
+	<?php echo $form->hiddenField($profile, 'id_tipo_vendedor', $htmlOptions=array('value'=>$tipo_vendedor)); ?>
 <?php 
+
+if($isDealer){
 		$profileFields=Profile::getFields();
 		if ($profileFields) {
 			foreach($profileFields as $field) {
@@ -36,7 +39,7 @@
 		} elseif ($field->range) {
 			echo $form->dropDownList($profile,$field->varname,Profile::range($field->range));
 		} elseif ($field->field_type=="TEXT") {
-			echo$form->textArea($profile,$field->varname,array('rows'=>6, 'cols'=>50));
+			echo $form->textArea($profile,$field->varname,array('rows'=>6, 'cols'=>50));
 		} else {
 			echo $form->textField($profile,$field->varname,array('size'=>60,'maxlength'=>(($field->field_size)?$field->field_size:255)));
 		}
@@ -46,6 +49,8 @@
 			<?php
 			}
 		}
+//fin de if($isDealer)
+}
 ?>
 	<?php if (UserModule::doCaptcha('registration')): ?>
 

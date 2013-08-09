@@ -23,7 +23,6 @@ class RegistrationController extends Controller
         Profile::$regMode = true;
         $model = new RegistrationForm;
         $profile=new Profile;
-
         /*
         echo "<pre>";
         print_r($_POST);
@@ -87,6 +86,20 @@ class RegistrationController extends Controller
 
 
 
+    public function actionRegistrationformajax(){
+        Profile::$regMode = true;
+        $model = new RegistrationForm;
+        $profile = new Profile;
 
+
+        $isDealer = false;
+        $tipo_vendedor = 1;
+        if(isset($_POST['isdealer']) && $_POST['isdealer'] == "true"){
+            $isDealer = true;
+            $tipo_vendedor = 2;
+        }
+
+        $this->renderPartial('/user/registrationdealer', array('profile'=>$profile, 'model'=>$model, 'isDealer'=>$isDealer, 'tipo_vendedor'=>$tipo_vendedor), false, true);
+    }
 
 }
