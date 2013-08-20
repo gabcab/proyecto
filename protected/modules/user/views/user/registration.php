@@ -15,7 +15,6 @@ $cs->registerScript('helpers', '
         baseUrl = '.CJSON::encode(Yii::app()->baseUrl).';
 ');
 
-
 $cs->registerScriptFile($baseUrl.'/js/login.js');
 //$cs->registerCssFile($baseUrl.'/css/yourcss.css');
 ?>
