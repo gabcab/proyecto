@@ -4,7 +4,7 @@
  * This is the model class for table "tbl_marca".
  *
  * The followings are the available columns in table 'tbl_marca':
- * @property string $id_marca
+ * @property string $id
  * @property string $nombre
  * @property string $descripcion
  * @property string $imagen
@@ -42,7 +42,7 @@ class Marca extends CActiveRecord
 			array('imagen', 'length', 'max'=>200),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id_marca, nombre, descripcion, imagen', 'safe', 'on'=>'search'),
+			array('id, nombre, descripcion, imagen', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -63,7 +63,7 @@ class Marca extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_marca' => 'Id Marca',
+			'id' => 'Id Marca',
 			'nombre' => 'Nombre',
 			'descripcion' => 'Descripcion',
 			'imagen' => 'Imagen',
@@ -81,7 +81,7 @@ class Marca extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id_marca',$this->id_marca,true);
+		$criteria->compare('id',$this->id,true);
 		$criteria->compare('nombre',$this->nombre,true);
 		$criteria->compare('descripcion',$this->descripcion,true);
 		$criteria->compare('imagen',$this->imagen,true);

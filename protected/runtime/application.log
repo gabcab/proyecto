@@ -3004,3 +3004,444 @@ in /var/www/autosdo/index.php (13)
 2013/08/04 12:41:11 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
 in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (36)
 in /var/www/autosdo/index.php (13)
+2013/08/05 17:45:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "autosdo/index.php?r=user/registrationdealer"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('autosdo/index.p...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/autosdo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/autosdo/index.php?r=autosdo/index.php?r=user/registrationdealer
+HTTP_REFERER=http://localhost/autosdo/index.php?r=user/registration
+---
+2013/08/05 17:49:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "autosdo/index.php?r=user/registrationdealer"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('autosdo/index.p...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/autosdo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/autosdo/index.php?r=autosdo/index.php?r=user/registrationdealer
+HTTP_REFERER=http://localhost/autosdo/index.php?r=user/registration
+---
+2013/08/05 17:56:41 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (36)
+in /var/www/autosdo/index.php (13)
+2013/08/05 17:56:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "autosdo/index.php?r=user/registrationdealer"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('autosdo/index.p...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/autosdo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/autosdo/index.php?r=autosdo/index.php?r=user/registrationdealer
+HTTP_REFERER=http://localhost/autosdo/index.php?r=user/registration
+---
+2013/08/05 17:58:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "autosdo/index.php?r=user/registration/registrationdealer"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('autosdo/index.p...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/autosdo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/autosdo/index.php?r=autosdo/index.php?r=user/registration/registrationdealer
+HTTP_REFERER=http://localhost/autosdo/index.php?r=user/registration
+---
+2013/08/05 17:58:54 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (36)
+in /var/www/autosdo/index.php (13)
+2013/08/05 17:59:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "autosdo/index.php?r=user/registration/registrationdealer"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('autosdo/index.p...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/autosdo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/autosdo/index.php?r=autosdo/index.php?r=user/registration/registrationdealer
+HTTP_REFERER=http://localhost/autosdo/index.php?r=user/registration
+---
+2013/08/05 18:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "autosdo/index.php?r=user/registration/registrationdealer"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('autosdo/index.p...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/autosdo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/autosdo/index.php?r=autosdo/index.php?r=user/registration/registrationdealer
+HTTP_REFERER=http://localhost/autosdo/index.php?r=user/registration
+---
+2013/08/05 18:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "autosdo/index.php?r=user/registration/registrationdealer"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('autosdo/index.p...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/autosdo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/autosdo/index.php?r=autosdo/index.php?r=user/registration/registrationdealer
+HTTP_REFERER=http://localhost/autosdo/index.php?r=user/registration
+---
+2013/08/05 18:13:10 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (36)
+in /var/www/autosdo/index.php (13)
+2013/08/05 18:26:03 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/05 18:31:28 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/05 18:35:46 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/05 21:08:20 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/05 21:09:04 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/06 20:41:18 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 21:04:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "user/registrationformajax"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/registrati...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/autosdo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/autosdo/index.php?r=user/registrationformajax
+HTTP_REFERER=http://localhost/autosdo/index.php?r=user/registration
+---
+2013/08/07 22:21:10 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 22:23:17 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 22:24:03 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 22:55:25 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:12:14 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:12:47 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:14:37 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:18:49 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:19:04 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:19:17 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:19:19 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:19:23 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:19:42 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:19:48 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:20:05 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:20:13 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:20:16 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:20:18 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:20:23 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:20:27 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:20:38 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:21:16 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:21:20 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:21:23 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:21:27 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:21:42 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:21:44 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:21:46 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:22:28 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:22:31 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:22:34 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:22:50 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:24:35 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:24:39 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:24:41 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:24:47 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:24:57 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/07 23:25:16 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/08 18:30:12 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (35)
+in /var/www/autosdo/index.php (13)
+2013/08/15 01:39:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "vehiculos"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('vehiculos')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/autosdo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/autosdo/index.php?r=vehiculos
+---
+2013/08/15 01:40:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "vehiculosventa"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('vehiculosventa')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/autosdo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/autosdo/index.php?r=vehiculosventa
+---
+2013/08/20 14:07:51 [error] [php] Undefined variable: select (/var/www/autosdo/protected/views/vehiculo/_form.php:46)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): VehiculoController->renderFile()
+#1 /var/www/autosdo/protected/views/vehiculo/create.php(15): VehiculoController->renderPartial()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require()
+#3 /var/www/yii/framework/web/CBaseController.php(95): VehiculoController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(869): VehiculoController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(782): VehiculoController->renderPartial()
+#6 /var/www/autosdo/protected/controllers/VehiculoController.php(78): VehiculoController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): VehiculoController->actionCreate()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(133): VehiculoController->runAction()
+#10 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /var/www/yii/framework/web/filters/CInlineFilter.php(58): VehiculoController->filterAccessControl()
+#13 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/yii/framework/web/CController.php(265): VehiculoController->runActionWithFilters()
+#16 /var/www/yii/framework/web/CWebApplication.php(282): VehiculoController->run()
+#17 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/autosdo/index.php(13): CWebApplication->run()
+REQUEST_URI=/autosdo/index.php?r=vehiculo/create
+in /var/www/autosdo/protected/views/vehiculo/_form.php (46)
+in /var/www/autosdo/protected/views/vehiculo/create.php (15)
+in /var/www/autosdo/protected/controllers/VehiculoController.php (78)
+2013/08/20 14:33:21 [error] [php] include(ciudad.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /var/www/autosdo/protected/views/vehiculo/_form.php(49): spl_autoload_call()
+#1 /var/www/yii/framework/web/CBaseController.php(126): require()
+#2 /var/www/yii/framework/web/CBaseController.php(95): VehiculoController->renderInternal()
+#3 /var/www/yii/framework/web/CController.php(869): VehiculoController->renderFile()
+#4 /var/www/autosdo/protected/views/vehiculo/create.php(15): VehiculoController->renderPartial()
+#5 /var/www/yii/framework/web/CBaseController.php(126): require()
+#6 /var/www/yii/framework/web/CBaseController.php(95): VehiculoController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(869): VehiculoController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(782): VehiculoController->renderPartial()
+#9 /var/www/autosdo/protected/controllers/VehiculoController.php(78): VehiculoController->render()
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(49): VehiculoController->actionCreate()
+#11 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /var/www/yii/framework/web/filters/CFilterChain.php(133): VehiculoController->runAction()
+#13 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#15 /var/www/yii/framework/web/filters/CInlineFilter.php(58): VehiculoController->filterAccessControl()
+#16 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#17 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#18 /var/www/yii/framework/web/CController.php(265): VehiculoController->runActionWithFilters()
+#19 /var/www/yii/framework/web/CWebApplication.php(282): VehiculoController->run()
+#20 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#22 /var/www/autosdo/index.php(13): CWebApplication->run()
+REQUEST_URI=/autosdo/index.php?r=vehiculo/create
+in /var/www/autosdo/protected/views/vehiculo/_form.php (49)
+in /var/www/autosdo/protected/views/vehiculo/create.php (15)
+in /var/www/autosdo/protected/controllers/VehiculoController.php (78)
+2013/08/20 14:36:25 [error] [php] include(ciudad.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /var/www/autosdo/protected/views/vehiculo/_form.php(49): spl_autoload_call()
+#1 /var/www/yii/framework/web/CBaseController.php(126): require()
+#2 /var/www/yii/framework/web/CBaseController.php(95): VehiculoController->renderInternal()
+#3 /var/www/yii/framework/web/CController.php(869): VehiculoController->renderFile()
+#4 /var/www/autosdo/protected/views/vehiculo/create.php(15): VehiculoController->renderPartial()
+#5 /var/www/yii/framework/web/CBaseController.php(126): require()
+#6 /var/www/yii/framework/web/CBaseController.php(95): VehiculoController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(869): VehiculoController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(782): VehiculoController->renderPartial()
+#9 /var/www/autosdo/protected/controllers/VehiculoController.php(78): VehiculoController->render()
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(49): VehiculoController->actionCreate()
+#11 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /var/www/yii/framework/web/filters/CFilterChain.php(133): VehiculoController->runAction()
+#13 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#15 /var/www/yii/framework/web/filters/CInlineFilter.php(58): VehiculoController->filterAccessControl()
+#16 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#17 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#18 /var/www/yii/framework/web/CController.php(265): VehiculoController->runActionWithFilters()
+#19 /var/www/yii/framework/web/CWebApplication.php(282): VehiculoController->run()
+#20 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#22 /var/www/autosdo/index.php(13): CWebApplication->run()
+REQUEST_URI=/autosdo/index.php?r=vehiculo/create
+in /var/www/autosdo/protected/views/vehiculo/_form.php (49)
+in /var/www/autosdo/protected/views/vehiculo/create.php (15)
+in /var/www/autosdo/protected/controllers/VehiculoController.php (78)
+2013/08/20 14:38:58 [error] [php] include(ciudad.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /var/www/autosdo/protected/views/vehiculo/_form.php(47): spl_autoload_call()
+#1 /var/www/yii/framework/web/CBaseController.php(126): require()
+#2 /var/www/yii/framework/web/CBaseController.php(95): VehiculoController->renderInternal()
+#3 /var/www/yii/framework/web/CController.php(869): VehiculoController->renderFile()
+#4 /var/www/autosdo/protected/views/vehiculo/create.php(15): VehiculoController->renderPartial()
+#5 /var/www/yii/framework/web/CBaseController.php(126): require()
+#6 /var/www/yii/framework/web/CBaseController.php(95): VehiculoController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(869): VehiculoController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(782): VehiculoController->renderPartial()
+#9 /var/www/autosdo/protected/controllers/VehiculoController.php(78): VehiculoController->render()
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(49): VehiculoController->actionCreate()
+#11 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /var/www/yii/framework/web/filters/CFilterChain.php(133): VehiculoController->runAction()
+#13 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#15 /var/www/yii/framework/web/filters/CInlineFilter.php(58): VehiculoController->filterAccessControl()
+#16 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#17 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#18 /var/www/yii/framework/web/CController.php(265): VehiculoController->runActionWithFilters()
+#19 /var/www/yii/framework/web/CWebApplication.php(282): VehiculoController->run()
+#20 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#22 /var/www/autosdo/index.php(13): CWebApplication->run()
+REQUEST_URI=/autosdo/index.php?r=vehiculo/create
+in /var/www/autosdo/protected/views/vehiculo/_form.php (47)
+in /var/www/autosdo/protected/views/vehiculo/create.php (15)
+in /var/www/autosdo/protected/controllers/VehiculoController.php (78)
+2013/08/20 14:39:00 [error] [php] include(ciudad.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /var/www/autosdo/protected/views/vehiculo/_form.php(47): spl_autoload_call()
+#1 /var/www/yii/framework/web/CBaseController.php(126): require()
+#2 /var/www/yii/framework/web/CBaseController.php(95): VehiculoController->renderInternal()
+#3 /var/www/yii/framework/web/CController.php(869): VehiculoController->renderFile()
+#4 /var/www/autosdo/protected/views/vehiculo/create.php(15): VehiculoController->renderPartial()
+#5 /var/www/yii/framework/web/CBaseController.php(126): require()
+#6 /var/www/yii/framework/web/CBaseController.php(95): VehiculoController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(869): VehiculoController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(782): VehiculoController->renderPartial()
+#9 /var/www/autosdo/protected/controllers/VehiculoController.php(78): VehiculoController->render()
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(49): VehiculoController->actionCreate()
+#11 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /var/www/yii/framework/web/filters/CFilterChain.php(133): VehiculoController->runAction()
+#13 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#15 /var/www/yii/framework/web/filters/CInlineFilter.php(58): VehiculoController->filterAccessControl()
+#16 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#17 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#18 /var/www/yii/framework/web/CController.php(265): VehiculoController->runActionWithFilters()
+#19 /var/www/yii/framework/web/CWebApplication.php(282): VehiculoController->run()
+#20 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#22 /var/www/autosdo/index.php(13): CWebApplication->run()
+REQUEST_URI=/autosdo/index.php?r=vehiculo/create
+in /var/www/autosdo/protected/views/vehiculo/_form.php (47)
+in /var/www/autosdo/protected/views/vehiculo/create.php (15)
+in /var/www/autosdo/protected/controllers/VehiculoController.php (78)
+2013/08/20 16:17:47 [error] [php] Invalid argument supplied for foreach() (/var/www/yii/framework/web/helpers/CHtml.php:2053)
+Stack trace:
+#0 /var/www/autosdo/protected/extensions/bootstrap/widgets/input/TbInputVertical.php(60): TbActiveForm->dropDownList()
+#1 /var/www/autosdo/protected/extensions/bootstrap/widgets/input/TbInput.php(201): TbInputVertical->dropDownList()
+#2 /var/www/yii/framework/web/CBaseController.php(173): TbInputVertical->run()
+#3 /var/www/autosdo/protected/extensions/bootstrap/widgets/TbActiveForm.php(497): VehiculoController->widget()
+#4 /var/www/autosdo/protected/extensions/bootstrap/widgets/TbActiveForm.php(112): TbActiveForm->inputRow()
+#5 /var/www/autosdo/protected/views/vehiculo/_form.php(18): TbActiveForm->dropDownListRow()
+#6 /var/www/yii/framework/web/CBaseController.php(126): require()
+#7 /var/www/yii/framework/web/CBaseController.php(95): VehiculoController->renderInternal()
+#8 /var/www/yii/framework/web/CController.php(869): VehiculoController->renderFile()
+#9 /var/www/autosdo/protected/views/vehiculo/create.php(15): VehiculoController->renderPartial()
+#10 /var/www/yii/framework/web/CBaseController.php(126): require()
+#11 /var/www/yii/framework/web/CBaseController.php(95): VehiculoController->renderInternal()
+#12 /var/www/yii/framework/web/CController.php(869): VehiculoController->renderFile()
+#13 /var/www/yii/framework/web/CController.php(782): VehiculoController->renderPartial()
+#14 /var/www/autosdo/protected/controllers/VehiculoController.php(78): VehiculoController->render()
+#15 /var/www/yii/framework/web/actions/CInlineAction.php(49): VehiculoController->actionCreate()
+#16 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#17 /var/www/yii/framework/web/filters/CFilterChain.php(133): VehiculoController->runAction()
+#18 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#20 /var/www/yii/framework/web/filters/CInlineFilter.php(58): VehiculoController->filterAccessControl()
+#21 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#22 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /var/www/yii/framework/web/CController.php(265): VehiculoController->runActionWithFilters()
+#24 /var/www/yii/framework/web/CWebApplication.php(282): VehiculoController->run()
+#25 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#26 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#27 /var/www/autosdo/index.php(13): CWebApplication->run()
+REQUEST_URI=/autosdo/index.php?r=vehiculo/create
+in /var/www/autosdo/protected/extensions/bootstrap/widgets/input/TbInputVertical.php (60)
+in /var/www/autosdo/protected/extensions/bootstrap/widgets/input/TbInput.php (201)
+in /var/www/autosdo/protected/extensions/bootstrap/widgets/TbActiveForm.php (497)
+2013/08/20 16:53:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "autosdo/index.php?r=user/registrationdealer"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('autosdo/index.p...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/autosdo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/autosdo/index.php?r=autosdo/index.php?r=user/registrationdealer
+HTTP_REFERER=http://localhost/autosdo/index.php?r=user/registration
+---
+2013/08/20 16:53:39 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (36)
+in /var/www/autosdo/index.php (13)
+2013/08/20 16:53:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "autosdo/index.php?r=user/registrationdealer"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('autosdo/index.p...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/autosdo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/autosdo/index.php?r=autosdo/index.php?r=user/registrationdealer
+HTTP_REFERER=http://localhost/autosdo/index.php?r=user/registration
+---
+2013/08/20 16:54:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "autosdo/index.php?r=user/registrationdealer"' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('autosdo/index.p...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/autosdo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/autosdo/index.php?r=autosdo/index.php?r=user/registrationdealer
+HTTP_REFERER=http://localhost/autosdo/index.php?r=user/registration
+---
+2013/08/20 16:54:28 [warning] [application] Error al definir unsafe el atributo "verifyCode" de "RegistrationForm".
+in /var/www/autosdo/protected/modules/user/controllers/RegistrationController.php (36)
+in /var/www/autosdo/index.php (13)

@@ -70,7 +70,7 @@ class MarcaController extends Controller
 		{
 			$model->attributes=$_POST['Marca'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_marca));
+				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('create',array(
@@ -94,7 +94,7 @@ class MarcaController extends Controller
 		{
 			$model->attributes=$_POST['Marca'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_marca));
+				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('update',array(

@@ -9,7 +9,13 @@
 
 	<?php echo $form->textFieldRow($model,'id_vendedor',array('class'=>'span5')); ?>
 
-	<?php echo $form->textFieldRow($model,'id_modelo',array('class'=>'span5')); ?>
+	<?php 
+	$marcaModel = Marca::model()->findAll(array('order' => 'nombre'));
+	//$model->marca_id = 1;
+	echo $form->dropDownListRow($model,'marca_id', CHtml::listData($marcaModel,'id','nombre'), array('empty' => '(Selecione la Marca)', 'class'=>'span5'));
+	?>	
+
+	<?php echo $form->dropDownListRow($model,'id_modelo', array(), array('empty' => '(Selecione Modelo)', 'disabled'=>'true', 'class'=>'span5')); ?>
 
 	<?php echo $form->textFieldRow($model,'id_traccion',array('class'=>'span5')); ?>
 
@@ -39,9 +45,14 @@
 
 	<?php echo $form->textFieldRow($model,'fecha_vencimiento',array('class'=>'span5','maxlength'=>20)); ?>
 
-	<?php echo $form->textFieldRow($model,'id_ciudad',array('class'=>'span5')); ?>
+	<?php //echo $form->textFieldRow($model,'id_ciudad',array('class'=>'span5')); ?>
+	<?php 
+	$ciudadModel = Ciudad::model()->findAll(array('order' => 'nombre'));
+	echo $form->dropDownListRow($model,'id_ciudad', CHtml::listData($ciudadModel,'id','nombre'), array('empty' => '(Selecione su Ciudad)', 'class'=>'span5'));
+	?>
 
 	<?php echo $form->textFieldRow($model,'activo',array('class'=>'span5')); ?>
+
 
 	<div class="form-actions">
 		<?php $this->widget('bootstrap.widgets.TbButton', array(

@@ -28,6 +28,10 @@
 	<?php echo CHtml::encode($data->kilometraje); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('id_ciudad')); ?>:</b>
+	<?php echo CHtml::encode($data->ciudad->nombre); ?>
+	<br />
+
 	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('color_ext')); ?>:</b>
 	<?php echo CHtml::encode($data->color_ext); ?>
