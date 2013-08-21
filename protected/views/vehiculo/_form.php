@@ -10,7 +10,8 @@
 	<?php echo $form->textFieldRow($model,'id_vendedor',array('class'=>'span5')); ?>
 
 	<?php 
-	$marcaModel = Marca::model()->findAll(array('order' => 'nombre'));
+	//$marcaModel = Marca::model()->findAll('id=:id', array(':id'=>1));
+	$marcaModel = Marca::model()->findAll(array('order'=>'nombre'));
 	//$model->marca_id = 1;
 	echo $form->dropDownListRow($model,'marca_id', CHtml::listData($marcaModel,'id','nombre'), array('empty' => '(Selecione la Marca)', 'class'=>'span5'));
 	?>	
